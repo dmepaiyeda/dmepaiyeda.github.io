@@ -31,12 +31,6 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon1.png">
 
-  <!-- =======================================================
-    Theme Name: Folio
-    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
 </head>
 
 <body>
@@ -55,8 +49,8 @@
         <ul class="nav-menu list-unstyled">
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Projects</a></li>
-          <li><a href="#journal" class="smoothScroll">Skills</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <!-- <li><a href="#journal" class="smoothScroll">Skills</a></li> -->
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
 
@@ -103,11 +97,15 @@
           <div class="about-descr">
 
             <p class="p-heading">Hello, 안녕하세요! <br> I'm a Computer Science Co-op major at Ryerson University. </p>
-            <p class="separator">I am a challenge-seeker who loves to learn and build on my skills through hackathons, side projects and going various meetups.
-              I aspire to become a Developer in the future and create products that will make life easier for others. I love to network, meet new people and learn new things
+            <p class="separator">I am a challenge-seeker who loves to learn and build on my skills through hackathons, side projects and going to various meetups.
+              I aspire to become a Designer and Developer. I want to help create products that will make life easier for others. I love to network, meet new people and learn new things
               <br> <br>
               <b> Fun fact: </b>
               I am learning how to read, write and speak Korean fluently.</p>
+              <br>
+              <div class="resumebtn_wrapper"> 
+                  <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"> LEARN MORE IN MY RESUME </a>
+              </div>
 
           </div>
         </div>
@@ -136,7 +134,7 @@
                 <div class="journal-txt">
   
                   <h4><a href="https://www.ryerson.ca/mind-action/our-stories/deborah-mepaiyeda/">RYERSON MIND AND ACTION</a></h4>
-                  <p class="separator">Deborah Mepaiyeda wants to make the industries of science, technology, engineering, and mathematics (STEM) a more compelling option for women everywhere.
+                  <p class="separator">Deborah Mepaiyeda wants to make the industries of Science, Technology, Engineering, and Mathematics (STEM) a more compelling option for women everywhere.
                   </p>
   
                 </div>
@@ -152,7 +150,7 @@
                 <div class="journal-txt">
   
                   <h4><a href="https://www.ryerson.ca/news-events/news/2017/12/students-inspired-at-tech-conference-for-women/">STUDENTS INSPIRED AT TECH CONFERENCE FOR WOMEN</a></h4>
-                  <p class="separator">Twelve engineering and science students attended event promoting women in STEM
+                  <p class="separator">Twelve Engineering and Science students attended event promoting women in STEM
                   </p>
   
                 </div>
@@ -184,7 +182,8 @@
   <!--End of features & press section -->
   <!-- end section about me -->
 
-  <div id="events" class="text-left">
+  <!-- Start of events and speaking -->
+  <!-- <div id="events" class="text-left">
 
     <div class="container">
       <div class="section-title text-center">
@@ -203,7 +202,9 @@
 
       </div>
     </div>
-  </div>
+  </div> -->
+
+  <!-- End of events and speaking -->
 
   <!-- start section services -->
   
@@ -284,62 +285,84 @@
           <div class="portfolio-list">
 
             <ul class="nav list-unstyled" id="portfolio-flters">
-              <!-- <li class="filter filter-active" data-filter=".all">all</li> -->
+              <li class="filter filter-active" data-filter=".all">all</li>
               <li class="filter" data-filter=".development">development</li>
-              <!-- <li class="filter" data-filter=".mockups">mockups</li> -->
-              <!-- <li class="filter" data-filter=".photography">photography</li> -->
+              <li class="filter" data-filter=".mockups">mockups</li>
+              <li class="filter" data-filter=".photography">photography</li>
             </ul>
 
           </div>
 
           <div class="portfolio-container">
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all uikits development">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all development">
               <a class="popup-img" href="images/portfolio/settle_proj.jpg">
                 <img src="images/portfolio/settle_proj.jpg" alt="img">
               </a>
-              <h4><a href="https://devpost.com/software/settleweb">SETTLE</a></h4>
+              <div class ="padding">
+                <h4><a href="https://devpost.com/software/settleweb">SETTLE</a></h4>
+              </div>
               <p class="separator">A web app that utilizes a chatbot built with the IBM Watson API to help new immigrants settle in Canada</p>
               <ul class="list-unstyled">
-                <li><a href="https://github.com/kbop543/SettleWeb"><i class="ion-social-github"></i></a></li>
+                <li><a href="https://github.com/kbop543/SettleWeb"><i class="ion-social-github"  style="font-size: 30px;"></i></a></li>
               </ul>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all uikits development">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all development">
               <a class="popup-img" href="images/portfolio/inspire_her.jpg">
                 <img src="images/portfolio/inspire_her.jpg"  alt="img">
               </a>
-              <h4><a href="https://devpost.com/software/inspireher">INSPIREHER </a></h4>
+              <div class ="padding">
+                <h4>INSPIREHER</h4>
+              </div>
               <p class="separator">A mobile app that connects female high school students (mentees) 
                 with professionals in the STEM industry (mentors)</p>
                 <ul class="list-unstyled">
-                    <li><a href="https://github.com/dmepaiyeda/InspireHER"><i class="ion-social-github"></i></a></li>
+                    <li><a href="https://github.com/dmepaiyeda/InspireHER"><i class="ion-social-github" style="font-size: 30px; "></i></a></li>
                 </ul>
             </div>
 
-            <!-- <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photography">
-              <a class="popup-img" href="images/portfolio/3.jpg">
-                <img src="images/portfolio/3.jpg" alt="img">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all development">
+              <a class="popup-img" href="images/portfolio/SmaugsHomeLib.jpg">
+                <img src="images/portfolio/SmaugsHomeLib.jpg"  alt="img">
               </a>
+              <div class ="padding">
+                <h4>SMAUG'S HOME LIBRARY</h4>
+              </div>
+              <p class="separator">A Home Library that stores items such as CD and DVDs. 
+                It allows the owner to store items, retrieve item information and borrow items.</p>
+                <ul class="list-unstyled">
+                    <li><a href="https://github.com/dmepaiyeda/SmaugsHomeLibrary"><i class="ion-social-github" style="font-size: 30px;"></i></a></li>
+                </ul>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
-              <a class="popup-img" href="images/portfolio/4.jpg">
-                <img src="images/portfolio/4.jpg" alt="img">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="images/portfolio/nature1.jpg">
+                <img src="images/portfolio/nature1.jpg" alt="img">
               </a>
+              <p class="separator">Hiking at Rattlesnake</p>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
-              <a class="popup-img" href="images/portfolio/5.jpg">
-                <img src="images/portfolio/5.jpg" alt="img">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="images/portfolio/nature2.jpg">
+                <img src="images/portfolio/nature2.jpg" alt="img">
               </a>
+              <p class="separator">Hiking at Rattlesnake</p>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-              <a class="popup-img" href="images/portfolio/6.jpg">
-                <img src="images/portfolio/6.jpg" alt="img">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="images/portfolio/nature3.jpg">
+                <img src="images/portfolio/nature3.jpg" alt="img">
               </a>
-            </div> -->
+              <p class="separator">Jasmine </p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all photography">
+              <a class="popup-img" href="images/portfolio/cars.jpg">
+                <img src="images/portfolio/cars.jpg" alt="img">
+              </a>
+              <p class="separator">Lined up taxis</p>
+            </div> 
 
           </div>
         </div>
@@ -350,15 +373,18 @@
   <!-- End section portfolio -->
 
 
-  <!-- start section journal -->
+  <!-- start section skills -->
   <div id="journal" class="text-left paddsection">
 
     <div class="container">
       <div class="section-title text-center">
-        <h2>SKILLS</h2>
+          <div class="resumebtn_wrapper"> 
+              <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"> LEARN MORE IN MY RESUME </a>
+          </div>
+        <!-- <h2>SKILLS</h2> -->
       </div>
     </div>
-
+<!-- 
     <div class="container">
       <div class="journal-block">
         <div class="row">
@@ -413,14 +439,14 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
 
 
   </div>
-  <!-- End section journal -->
+  <!-- End section skills -->   
 
 
-  <!-- start sectoion contact -->
+  <!-- start section contact -->
   <div id="contact" class="paddsection">
     <div class="container">
       <div class="contact-block1">
@@ -429,12 +455,17 @@
           <div class="col-lg-6">
             <div class="contact-contact">
 
-              <h2 class="mb-30">LET'S CONNECT</h2>
+              <h2 class="mb-30">LET'S CHAT</h2>
 
               <ul class="contact-details">
-                <li><span>dmepaiyeda@gmail.com</span></li>
+                <li><span>I enjoy challenges and new opportunities. </span></li>
+                <li><span> Feel free to reach out if you would like to collaborate or have a coffee chat. 
+                   I am able to help develop quality products, organize or plan events and teach or speak at events.</span></li>
+                <li><span>If you prefer social media, feel free to <b><a href = "https://www.linkedin.com/in/deborah-mepaiyeda/">connect with me professionally</a></b> or <b><a href ="https://twitter.com/d_mep">send me a tweet</a></b> </span></li>
               </ul>
-
+              <form target="_blank" rel="noopener">
+                  <button class="btn btn-secondary btn-lg active" formaction="mailto:dmepaiyeda@gmail.com">dmepaiyeda@gmail.com</button>
+              </form>
             </div>
           </div>
 
