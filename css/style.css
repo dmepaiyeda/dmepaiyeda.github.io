@@ -208,6 +208,7 @@ nav ul li a {
 
 .logo {
   float: left;
+  height: 40px;
 }
 
 .logo img {
