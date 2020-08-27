@@ -72,14 +72,15 @@ $(document).ready(function() {
   });
 
   // ========================================================================= //
-  //  Typed Js
+  //  Typed JS
   // ========================================================================= //
 
   var typed = $(".typed");
 
   $(function() {
     typed.typed({
-      strings: ["Deborah Mepaiyeda.", "Designer.", "Developer."],
+      strings: ["Deborah Mepaiyeda.", "Designer.", "Developer.", "Foodie.", "K-drama lover.", 
+      "Deborah can't wait to meet you! :)"],
       typeSpeed: 100,
       loop: true,
     });
