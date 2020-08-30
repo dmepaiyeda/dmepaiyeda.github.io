@@ -1,9 +1,9 @@
 body {
   background: #ffffff;
-  color: #898989;
-  font-family: 'Poppins', helvetica;
+  color: black;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.02em;
   overflow-x: hidden;
@@ -21,12 +21,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #292929;
+  color: black;
   font-weight: 600;
 }
 
 h4 {
-  color: #292929;
+  color: black;
   font-size: 14px;
   font-weight: 600;
 }
@@ -59,7 +59,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 12px;
-  color: #999999;
+  color: black;
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
@@ -75,7 +75,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: black;
   line-height: 28px;
 }
 
@@ -187,7 +187,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -197,8 +197,8 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
-  font-family: 'Poppins', helvetica;
+  color: black;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -248,12 +248,12 @@ nav ul li a {
 
 .header-content h1 {
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 8px;
   text-transform: uppercase;
   color: #000;
   letter-spacing: 1pt;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display', serif;
   opacity: 0.9;
   line-height: 0.8;
 }
@@ -265,7 +265,7 @@ nav ul li a {
   margin-bottom: 10px;
   color: #000;
   font-weight: 500;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header-content .list-social li {
@@ -326,6 +326,7 @@ nav ul li a {
 #about .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
+  font-weight: 500;
   text-align: left;
 }
 
@@ -333,6 +334,14 @@ nav ul li a {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+}
+
+.about-descr{
+  padding-top:0px;
+}
+
+.about-text{
+  font-size: 16px;
 }
 
 h4 .involv-head{
@@ -428,7 +437,7 @@ h4 .involv-head{
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #999999;
+  color: black;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
