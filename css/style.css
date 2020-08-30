@@ -231,7 +231,7 @@ nav ul li a {
 
 #header {
   background: url("../images/header.jpg") repeat scroll center center / cover;
-  opacity: 0.75;
+  opacity: 0.80;
   height: 50%;
   width: auto;
 }
@@ -323,11 +323,18 @@ nav ul li a {
   object-fit: cover;
 }
 
-#about .about-descr .p-heading {
+#about .about-descr .p-heading{
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   font-weight: 500;
   text-align: left;
+}
+
+.about-sub-heading{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 0px;
 }
 
 #about .about-descr .separator {
