@@ -252,7 +252,7 @@ nav ul li a {
   margin-bottom: 8px;
   text-transform: uppercase;
   color: #000;
-  letter-spacing: 1pt;
+  letter-spacing: 0.5pt;
   font-family: 'Playfair Display', serif;
   opacity: 0.9;
   line-height: 0.8;
@@ -349,6 +349,7 @@ nav ul li a {
 
 .about-text{
   font-size: 16px;
+  letter-spacing: 0.5pt;
 }
 
 h4 .involv-head{
